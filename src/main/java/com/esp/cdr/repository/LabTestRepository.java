@@ -1,0 +1,11 @@
+package com.esp.cdr.repository;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+import com.esp.cdr.entity.LabTest;
+
+@Repository
+public interface LabTestRepository extends JpaRepository<LabTest, Integer>{
+	
+}
